@@ -1,0 +1,18 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build"],
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "rootDir": "./src",
+    "moduleResolution": "node10",
+    "baseUrl": "./src",
+    "types": ["node"],
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
